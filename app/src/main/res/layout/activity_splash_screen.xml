@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Splash_screen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/shopping"
+            android:layout_marginTop="200dp"
+            android:id="@+id/logo"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kasi Pay"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textSize="32dp"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:id="@+id/logo_text"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
